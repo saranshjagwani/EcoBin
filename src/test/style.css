@@ -1,0 +1,190 @@
+/* Product Showcase Container */
+.product-showcase {
+  background: rgba(255, 255, 255, 0.9); /* Transparent white background */
+  backdrop-filter: blur(12px); /* Adds more glass effect */
+  padding: 30px;
+  border-radius: 25px;
+  margin: 60px auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for elegance */
+  flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+/* Inner Showcase Container */
+.showcase-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: wrap; /* Allow sections to stack on smaller screens */
+}
+
+/* Text Section */
+.text-section {
+  flex: 1;
+  color: #2d3748; /* Neutral color for text */
+  margin-bottom: 20px; /* Space between text and image on small screens */
+}
+
+.headline {
+  font-size: 3.5rem; /* Larger headline for a more prominent effect */
+  font-weight: 800; /* Extra bold heading */
+  color: #28a745; /* EcoMove green theme */
+  margin-bottom: 25px;
+  letter-spacing: 2px; /* Adds spacing between letters for better readability */
+  text-transform: uppercase; /* Make heading all caps */
+}
+
+.description {
+  font-size: 1.3rem; /* Slightly larger text for readability */
+  margin-bottom: 40px; /* More space below the description */
+  line-height: 1.6;
+  color: #555;
+}
+
+.buy-now-button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.buy-now-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Image Section */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Space between image and text on mobile */
+}
+
+.product-image {
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
+  border-radius: 15px; /* Slightly rounded edges for the product image */
+  object-fit: cover; /* Ensure the image maintains aspect ratio and looks good */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .showcase-container {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items */
+  }
+
+  .headline {
+    font-size: 2.8rem; /* Adjust font size for smaller screens */
+    text-align: center; /* Center headline */
+  }
+
+  .description {
+    font-size: 1.1rem; /* Slightly smaller text on mobile */
+    text-align: center; /* Center description */
+    margin-bottom: 25px;
+  }
+
+  .buy-now-button {
+    font-size: 1.2rem; /* Increase button font size */
+    padding: 12px 25px; /* Adjust padding for smaller screens */
+  }
+
+  .product-image {
+    max-width: 330px; /* Slightly smaller image for mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* General Styling */
+.product-showcase {
+  padding: 50px 30px;
+}
+
+.showcase-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image-section {
+  flex: 1;
+  max-width: 50%; /* Image takes up 50% of the container */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-section {
+  flex: 1;
+  max-width: 50%; /* Content takes up 50% of the container */
+}
+
+.headline {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #47a116;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.buy-now-button {
+  background-color: #18a44c;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color:#388E3C;
+}
+
+.buy-now-button a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; /* Stack image and text vertically on smaller screens */
+    text-align: center;
+  }
+
+  .image-section {
+    max-width: 100%; /* Image takes up full width */
+    margin-bottom: 20px;
+  }
+
+  .text-section {
+    max-width: 100%; /* Content takes up full width */
+  }
+}
