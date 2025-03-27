@@ -46,7 +46,7 @@ const Navbar = () => {
             to="/"
             className="text-2xl font-bold text-green-600 dark:text-green-400"
           >
-            EcoMove
+            EcoBin
           </Link>
 
           {/* Desktop Navigation */}
