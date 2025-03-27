@@ -4,10 +4,10 @@
 Welcome to EcoMove! This project tackles the critical challenge of increasing awareness about sustainable and renewable products in our everyday lives. EcoMove is a web-based application designed to educate and inspire users to adopt eco-friendly practices by leveraging cutting-edge technology.
 
 ## Deployed Application
-Experience the live version of EcoMove here: [EcoMove App](https://ecoomoveapp.netlify.app/)
+Experience the live version of EcoMove here: [EcoMove App]()
 
 ## YouTube Video Presentation
-Discover EcoMove in action! Watch our presentation: [EcoMove Presentation](https://youtu.be/4ri8ElCwR3c)
+Discover EcoMove in action! Watch our presentation: [EcoMove Presentation]()
 
 ---
 
