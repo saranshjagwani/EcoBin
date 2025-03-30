@@ -7,7 +7,7 @@ Welcome to **EcoBin!** This project tackles the critical challenge of increasing
 Experience the live version of **EcoBin** here: **[EcoBin App](https://ecobinapp.netlify.app/)**
 
 ## **YouTube Video Presentation**
-Discover **EcoBin** in action! Watch our presentation: **[EcoBin Presentation]()**
+Discover **EcoBin** in action! Watch our presentation: **[EcoBin Presentation](https://youtu.be/8SeBKJ1Ka0A?si=R692dLhkP82qNZtF)**
 
 ---
 
